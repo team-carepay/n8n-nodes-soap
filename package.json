@@ -7,13 +7,17 @@
     "soap-request",
     "soap"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/team-carepay/n8n-nodes-soap#README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/team-carepay/n8n-nodes-soap.git"
   },
   "main": "index.js",
+  "author": {
+    "name": "Mischa Dasberg",
+    "email": "m.dasberg@carepay.com"
+  },
   "scripts": {
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
@@ -28,10 +32,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/SOAPApi.credentials.js"
+      "dist/credentials/SoapApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/SOAPRequest/SOAPRequest.node.js"
+      "dist/nodes/SoapRequest/SoapRequest.node.js"
     ]
   },
   "devDependencies": {

@@ -4,12 +4,12 @@ import {
     INodeType,
     INodeTypeDescription,
 } from 'n8n-workflow';
-import {CONVERT_TO_JSON, METHOD, SEND_HEADERS, soapOperations, URL} from "./SOAP.operations";
+import {CONVERT_TO_JSON, METHOD, SEND_HEADERS, soapOperations, URL} from "./Soap.operations";
 import {
     interpolateSOAPBodyCredentials,
     interpolateSOAPHeaderCredentials
 } from "./Authentication.utils";
-import {SOAPMessageBuilder} from "./SOAPMessage";
+import {SOAPMessageBuilder} from "./SoapMessage";
 import xpath from "xpath";
 import {parseString,} from "xml2js";
 import {DOMParser} from '@xmldom/xmldom';

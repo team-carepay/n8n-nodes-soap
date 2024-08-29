@@ -92,11 +92,11 @@ export const soapOperations: INodeProperties[] = [
         }
     },
     {
-        displayName: 'Convert response to json',
+        displayName: 'Convert Response to Json',
         name: CONVERT_TO_JSON,
         type: 'boolean',
         default: false,
         noDataExpression: true,
-        description: 'Whether the SOAP response should be converted to json',
+        description: 'Whether the SOAP response should be converted to JSON',
     },
 ];

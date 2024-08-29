@@ -4,7 +4,7 @@ import {
     SOAP_API_CREDENTIAL,
     SOAP_API_CREDENTIALS_TYPE
 } from "./Authentication.operations";
-import {SOAP_BODY, SOAP_HEADERS} from "./SOAP.operations";
+import {SOAP_BODY, SOAP_HEADERS} from "./Soap.operations";
 
 export async function interpolateSOAPBodyCredentials(execution: IExecuteFunctions, index: number): Promise<string> {
     return await interpolateCredentials(execution, index, SOAP_BODY);

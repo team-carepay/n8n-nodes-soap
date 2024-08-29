@@ -1,6 +1,6 @@
 import {IAuthenticateGeneric, ICredentialType, INodeProperties,} from 'n8n-workflow';
 
-export class SOAPApi implements ICredentialType {
+export class SoapApi implements ICredentialType {
   name = 'soapApi';
   displayName = 'SOAP API';
   properties: INodeProperties[] = [

@@ -1,5 +1,5 @@
 // Not exposed to enforce use of the Builder.
-class SOAPMessage {
+class SoapMessage {
     private headers: string[];
     private body: string;
     private envelopeAttributes: Record<string, string>;
@@ -55,7 +55,7 @@ export class SOAPMessageBuilder {
         return this;
     }
 
-    public build(): SOAPMessage {
-        return new SOAPMessage(this.headers, this.body, this.envelopeAttributes);
+    public build(): SoapMessage {
+        return new SoapMessage(this.headers, this.body, this.envelopeAttributes);
     }
 }
