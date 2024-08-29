@@ -20,9 +20,9 @@ To install the node, follow these steps:
 1. Navigate to your n8n installation directory.
 2. Install the node package:
 
-   ```bash
-   npm install n8n-nodes-soaprequest
-   ```
+```bash
+npm install n8n-nodes-soaprequest
+```
 3. Start or restart your n8n instance.
 
 ## Configuration
