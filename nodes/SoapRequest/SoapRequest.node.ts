@@ -90,8 +90,6 @@ export class SoapRequest implements INodeType {
         }
 
         return [this.helpers.returnJsonArray([{
-            url,
-            method,
             data: resultData,
             headers: response.headers,
             statusCode: response.statusCode,
