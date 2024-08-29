@@ -15,7 +15,7 @@ import {parseString,} from "xml2js";
 import {DOMParser} from '@xmldom/xmldom';
 import {authenticationOperations, SOAP_API_CREDENTIALS_TYPE} from "./Authentication.operations";
 
-export class SOAPRequest implements INodeType {
+export class SoapRequest implements INodeType {
     description: INodeTypeDescription = {
         credentials: [
             {
