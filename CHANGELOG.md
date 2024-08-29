@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/team-carepay/n8n-nodes-soaprequest/compare/v1.0.0...v1.0.1) (2024-08-29)
+
+
+### Bug Fixes
+
+* constructor ([de1b121](https://github.com/team-carepay/n8n-nodes-soaprequest/commit/de1b1210ebaf820e1eafaaef183b69e2d9e66251))
+
 # 1.0.0 (2024-08-29)
 
 
