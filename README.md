@@ -1,4 +1,4 @@
-# n8n-nodes-soap
+# n8n-nodes-soaprequest
 
 <img src="https://n8n.io/images/nodes/n8n.svg" width="100" height="100"/>
 
@@ -21,7 +21,7 @@ To install the node, follow these steps:
 2. Install the node package:
 
    ```bash
-   npm install n8n-nodes-soap
+   npm install n8n-nodes-soaprequest
    ```
 3. Start or restart your n8n instance.
 
@@ -47,4 +47,4 @@ Once the credentials are set up, you can use the `SOAP Request` node in your wor
 ## License
 
 This project is licensed under the MIT License. See
-the [LICENSE](https://github.com/team-carepay/n8n-nodes-soap/blob/main/LICENSE.md) file for details.
+the [LICENSE](https://github.com/team-carepay/n8n-nodes-soaprequest/blob/main/LICENSE.md) file for details.

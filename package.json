@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-soap",
+  "name": "n8n-nodes-soaprequest",
   "version": "1.0.0",
   "description": "n8n node for soap requests",
   "keywords": [
@@ -8,10 +8,10 @@
     "soap"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/team-carepay/n8n-nodes-soap#README.md",
+  "homepage": "https://github.com/team-carepay/n8n-nodes-soaprequest#README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team-carepay/n8n-nodes-soap.git"
+    "url": "git+https://github.com/team-carepay/n8n-nodes-soaprequest.git"
   },
   "main": "index.js",
   "author": {
