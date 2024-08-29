@@ -29,7 +29,6 @@ export class SoapRequest implements INodeType {
                 },
             },
         ],
-
         description: 'SOAP Request',
         displayName: 'SOAP Request',
         defaults: {
